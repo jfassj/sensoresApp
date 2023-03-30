@@ -58,4 +58,33 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  mostrar_select:{
+    width: '100%',
+    height: 40,
+    margin: 12,
+    borderWidth: 1,
+    padding: 10,
+    borderLeftWidth: 0,
+    borderRightWidth: 0,
+    borderTopWidth: 0,
+    borderBottomWidth: 2,
+    borderColor: colores.cuatro,
+    color: colores.cuatro,
+    backgroundColor: colores.uno,
+  },
+  mostrar_select_label:{
+    fontSize: 20,
+    color: colores.cuatro,
+  },
+  mostrar_lecturas_item: {
+    width: '100$',
+    padding: 5,
+    backgroundColor: colores.cinco,
+    marginBottom: 10,
+    borderWidth: 0,
+  },
+  mostrar_lecturas_tittle:{
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
 });
